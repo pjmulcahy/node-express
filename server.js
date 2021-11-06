@@ -11,6 +11,7 @@ app.use(express.json());
 
 app.use('/campsites', campsiteRouter);
 app.use('/promotions', promotionRouter);
+app.use('/partners', partnerRouter);
 
 app.use(express.static(__dirname + '/public'));
 
